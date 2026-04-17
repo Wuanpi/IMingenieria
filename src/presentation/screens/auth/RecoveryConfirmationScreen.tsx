@@ -24,8 +24,9 @@ export default function RecoveryConfirmationScreen() {
         <Text style={styles.description}>
           Hemos recibido tu solicitud de recuperación de acceso.
         </Text>
-
+        <center>
         <Text style={styles.emailLabel}>Correo registrado</Text>
+        </center>
 
         <View style={styles.emailBox}>
           <Text style={styles.emailText}>{resolvedEmail}</Text>
